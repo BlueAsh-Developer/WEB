@@ -67,6 +67,7 @@ export default function ContactPage() {
               </svg>
               Chat on WhatsApp
             </a>
+            <p className="mt-3 text-center text-sm text-gray-500 dark:text-gray-400">Muhammad Abdul Malik</p>
 
             {/* Map */}
             <div className="mt-6 rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 h-48">
