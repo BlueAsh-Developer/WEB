@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-white font-black text-lg">AT</div>
+            <Image src="/logo.jpg" alt="Ali Traders" width={44} height={44} className="rounded-lg object-cover" />
             <div className="hidden sm:block">
               <div className="font-black text-gray-900 dark:text-white text-lg leading-none">Ali Traders</div>
               <div className="text-xs text-orange-500 leading-none">Your Trusted Tech Store</div>
