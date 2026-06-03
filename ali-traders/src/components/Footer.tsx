@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-white font-black text-lg">AT</div>
+              <img src="/logo.jpg" alt="Ali Traders" className="w-10 h-10 rounded-lg object-cover" />
               <div>
                 <div className="font-black text-white text-lg leading-none">Ali Traders</div>
                 <div className="text-xs text-orange-400 leading-none">Your Trusted Tech Store</div>

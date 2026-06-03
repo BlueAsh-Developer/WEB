@@ -12,7 +12,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="w-20 h-20 bg-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl font-black">AT</div>
+          <img src="/logo.jpg" alt="Ali Traders" className="w-20 h-20 rounded-2xl object-cover mx-auto mb-6" />
           <h1 className="text-4xl font-black mb-4">About Ali Traders</h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">Your Trusted Tech Accessories Store in Rahim Yar Khan</p>
         </div>

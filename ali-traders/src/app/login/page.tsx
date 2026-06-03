@@ -8,9 +8,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 p-8 shadow-lg text-center">
           {/* Logo */}
-          <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center text-white font-black text-2xl mx-auto mb-4">
-            AT
-          </div>
+          <img src="/logo.jpg" alt="Ali Traders" className="w-16 h-16 rounded-2xl object-cover mx-auto mb-4" />
           <h1 className="text-2xl font-black text-gray-900 dark:text-white mb-1">Welcome Back</h1>
           <p className="text-gray-500 dark:text-gray-400 text-sm mb-8">
             Sign in to track orders and save your wishlist
