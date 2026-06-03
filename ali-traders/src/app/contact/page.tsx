@@ -15,6 +15,7 @@ export default function ContactPage() {
     <>
       {/* Hero */}
       <section className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 text-center">
+        <img src="/logo.jpg" alt="Ali Traders" className="w-16 h-16 rounded-2xl object-cover mx-auto mb-4" />
         <h1 className="text-4xl font-black mb-3">Contact Us</h1>
         <p className="text-gray-400 text-lg">We'd love to hear from you. Reach out anytime!</p>
       </section>
