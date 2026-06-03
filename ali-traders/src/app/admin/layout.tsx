@@ -38,9 +38,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     return (
       <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4">
         <div className="w-full max-w-sm bg-gray-900 border border-gray-700 rounded-2xl p-8 text-center">
-          <div className="w-14 h-14 bg-orange-500 rounded-xl flex items-center justify-center mx-auto mb-4">
-            <Lock size={24} className="text-white" />
-          </div>
+          <img src="/logo.jpg" alt="Ali Traders" className="w-16 h-16 rounded-xl object-cover mx-auto mb-4" />
           <h1 className="text-xl font-black text-white mb-1">Admin Panel</h1>
           <p className="text-gray-400 text-sm mb-6">
             {session ? "You don't have admin access." : "Sign in with the admin Google account to continue."}
@@ -68,7 +66,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <aside className="w-56 shrink-0 bg-gray-900 border-r border-gray-800 flex flex-col">
         <div className="p-5 border-b border-gray-800">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center text-white font-black text-sm">AT</div>
+            <img src="/logo.jpg" alt="Ali Traders" className="w-8 h-8 rounded-lg object-cover" />
             <div>
               <p className="text-white font-bold text-sm leading-none">Ali Traders</p>
               <p className="text-orange-400 text-xs">Admin Panel</p>
